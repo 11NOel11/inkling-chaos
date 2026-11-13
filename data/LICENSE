@@ -1,0 +1,10 @@
+The question sets in data/items/, the model replies in data/results/ and the training logs in data/training/ are
+licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Noel Thomas, "The numbers say chaotic, the database says regular: Inkling 2 Small believes the database"
+(2026), https://github.com/11NOel11/inkling-chaos
+
+The dynamical systems and their default parameters come from dysts (William Gilpin,
+https://github.com/williamgilpin/dysts). Replies in data/results/models/ come from the model in the file name;
+files ending in _haiku come from Claude Haiku 5.5; all other replies come from Inkling 2 Small, base or trained.

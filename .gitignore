@@ -1,0 +1,7 @@
+drafts/
+figures/
+.venv/
+*.npz
+!data/orbit_page.npz
+.DS_Store
+__pycache__/
