@@ -36,6 +36,8 @@ header.title { text-align: center; max-width: 780px; margin: 26px auto 0 }
 h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.15; font-weight: 600; margin: 0 0 12px; text-wrap: balance; letter-spacing: -.01em }
 .dek { font-size: 19px; color: var(--muted); margin: 0 auto 10px; max-width: 620px; text-wrap: balance }
 .byline { font-family: var(--sans); font-size: 14px; color: var(--muted) }
+.borrowed { font-family: var(--sans); font-size: 12.5px; color: var(--faint); margin-top: 6px }
+.borrowed a { color: inherit }
 .hero { max-width: 760px; margin: 20px auto 0 }
 #lorenz { width: 100%; aspect-ratio: 16 / 10; display: block; max-width: 100% }
 .hero-cap { font-family: var(--sans); font-size: 13px; color: var(--muted); text-align: center; margin-top: 4px; min-height: 40px }
@@ -97,6 +99,7 @@ footer { max-width: 680px; margin: 60px auto 40px; font-family: var(--sans); fon
   <h1>The numbers say chaotic. The database says regular. Inkling 2 Small believes the database.</h1>
   <p class="dek">$29 of RL on Tinker fixes the worst of it. An independent eval of Thinking Machines' <a href="https://huggingface.co/thinkingmachines/Inkling-2-Small">open model</a>.</p>
   <div class="byline">Noel Thomas · November 2026</div>
+  <div class="borrowed">Not affiliated with Thinking Machines. We just liked the look of their <a href="https://thinkingmachines.ai/news/inkling-2-small/">Inkling 2 Small post</a> and borrowed it.</div>
 </header>
 
 <div class="hero">
@@ -166,7 +169,7 @@ footer { max-width: 680px; margin: 60px auto 40px; font-family: var(--sans); fon
 <footer>
   Closest related work: <a href="https://arxiv.org/abs/2609.37616">Kumar &amp; Chopra (Lossfunk, NeurIPS 2026)</a> find the same pull toward a "verified source" in trivia questions, rising with how authoritative the note sounds, and reduce it by editing model activations; here a short RL run reduces it.<br><br>
   Systems and default parameters from <a href="https://github.com/williamgilpin/dysts">dysts</a> (William Gilpin, NeurIPS 2021).
-  Tinker credit provided by Thinking Machines Lab. Page design adapted from their <a href="https://thinkingmachines.ai/news/inkling-2-small/">Inkling 2 Small post</a>. Independent work, not affiliated with Thinking Machines.
+  Tinker credit provided by Thinking Machines Lab. Independent work, not affiliated with Thinking Machines.
   Every number on this page is recomputed from the raw replies by <code>code/score/</code> in the
   <a href="https://github.com/11NOel11/inkling-chaos">repository</a>.
 </footer>
